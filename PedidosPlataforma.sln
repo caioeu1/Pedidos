@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orders", "Orders", "{A1000001-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Domain", "Orders\Orders.Domain\Orders.Domain.csproj", "{A1000002-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Application", "Orders\Orders.Application\Orders.Application.csproj", "{A1000003-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Infrastructure", "Orders\Orders.Infrastructure\Orders.Infrastructure.csproj", "{A1000004-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.API", "Orders\Orders.API\Orders.API.csproj", "{A1000005-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Tests", "Orders\Orders.Tests\Orders.Tests.csproj", "{A1000006-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{B1000001-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Domain", "Users\Users.Domain\Users.Domain.csproj", "{B1000002-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Application", "Users\Users.Application\Users.Application.csproj", "{B1000003-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Infrastructure", "Users\Users.Infrastructure\Users.Infrastructure.csproj", "{B1000004-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.API", "Users\Users.API\Users.API.csproj", "{B1000005-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{C1000001-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "Catalog\Catalog.Domain\Catalog.Domain.csproj", "{C1000002-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{D1000001-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Domain", "Payments\Payments.Domain\Payments.Domain.csproj", "{D1000002-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notifications", "Notifications", "{E1000001-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Domain", "Notifications\Notifications.Domain\Notifications.Domain.csproj", "{E1000002-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoPedidos.Tests", "GestaoPedidos.Tests\GestaoPedidos.Tests.csproj", "{D47D8E88-E606-4E5F-9AFA-80D91425F90D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D47D8E88-E606-4E5F-9AFA-80D91425F90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47D8E88-E606-4E5F-9AFA-80D91425F90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47D8E88-E606-4E5F-9AFA-80D91425F90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47D8E88-E606-4E5F-9AFA-80D91425F90D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
